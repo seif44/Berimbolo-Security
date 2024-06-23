@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+    
+}
+
+.about-us-section {
+    background-color: #fff; /* White background for a clean look */
+    color: #333; /* Dark text for readability */
+}
+
+.about-us-section p {
+    font-size: 16px; /* Slightly larger text for easy reading */
+    line-height: 1.6; /* Improved line spacing for readability */
+}
+
+#text{
+    position: absolute;
+    top: 70px;
+}
+.caption{
+    position: relative;
+}
+
+.card_group{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+
+
+.h_2 {
+  font-family: "Playwrite NG Modern", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
